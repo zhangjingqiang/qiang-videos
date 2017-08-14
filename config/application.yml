@@ -1,0 +1,11 @@
+defaults: &defaults
+  site_name: Qiang Videos
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

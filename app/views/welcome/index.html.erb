@@ -1,0 +1,7 @@
+<% @videos.each do |video| %>
+  <div class="alert alert-info">
+    <div><%= link_to video.title, video.link %></div>
+    <%= auto_link(simple_format(video.try(:description))) %>
+  </div>
+<% end %>
+<%= will_paginate @videos, renderer: BootstrapPagination::Rails %>

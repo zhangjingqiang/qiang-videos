@@ -7,7 +7,7 @@ What videos I watched.
 - Hosted on [Heroku](http://qiang-videos.herokuapp.com)
 - Powered by [Ruby on Rails](http://rubyonrails.org)
 
-# Installation
+## Installation
 
 ```ruby
 heroku config:set EMAIL=[...]
@@ -17,6 +17,6 @@ heroku run rails console
 Admin.create!({ email: '...', password: '...', password_confirmation: '...' })
 ```
 
-# License
+## License
 
 [MIT](http://opensource.org/licenses/MIT)
